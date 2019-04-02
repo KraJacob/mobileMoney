@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
+    "name": "laravel MobileMoney",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "Package for mobile integration.",
     "keywords": [
         "framework",
         "laravel"
