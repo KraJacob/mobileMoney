@@ -1,5 +1,5 @@
 {
-    "name": "arolitec_mobilemoney",
+    "name": "arolitec/mobilemoney",
     "type": "project",
     "description": "Package for mobile integration.",
     "keywords": [
