@@ -1,6 +1,6 @@
 <?php
 
-namespace MobileMoney\Controllers;
+namespace Arolitec\Mobilemoney;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
