@@ -41,7 +41,7 @@ class MobileMoneyController extends Controller
                 CURLOPT_TIMEOUT => 30,
                 CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
                 CURLOPT_CUSTOMREQUEST => "POST",
-                CURLOPT_POSTFIELDS => "Code=".$code."&Password=".$password."MSISDN=".$msisdn."&Reference=".$reference."&Amount=".$amount."&MetaData=".$metadata,
+                CURLOPT_POSTFIELDS => "Code=".$code."&Password=".$password."&MSISDN=".$msisdn."&Reference=".$reference."&Amount=".$amount."&MetaData=".$metadata,
                 CURLOPT_HTTPHEADER => array(
                     "Content-Type: application/x-www-form-urlencoded",
                     "cache-control: no-cache"

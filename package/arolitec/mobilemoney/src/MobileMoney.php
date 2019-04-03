@@ -1,6 +1,6 @@
 <?php
 
-namespace Mobilemoney\src;
+namespace Arolitec\Mobilemoney;
 
 use Illuminate\Database\Eloquent\Model;
 

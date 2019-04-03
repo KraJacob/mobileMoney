@@ -14,6 +14,7 @@ class MobileMoneyServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->make(MobileMoneyController::class);
+        $this->app->make(MobileMoney::class);
     }
 
     /**
