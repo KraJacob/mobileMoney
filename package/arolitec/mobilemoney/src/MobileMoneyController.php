@@ -3,11 +3,9 @@
 namespace Arolitec\Mobilemoney;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
-use Mobilemoney\src\MobileMoney;
 use Mtownsend\XmlToArray\XmlToArray;
 
-class MobileMoneyController extends Controller
+class MobileMoneyController  extends Controller
 {
 
     public static function doTransaction($user_id,$compte,$transaction_type,$curlopt_url = null,$curlopt_postfields = null, $code = null, $password = null, $msisdn = null, $reference = null, $amount, $metadata = null)
