@@ -13,7 +13,7 @@ class MobileMoneyServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('arolitec\mobilemoney\MobileMoneyController');
+        //$this->app->make('arolitec\mobilemoney\MobileMoneyController');
     }
 
     /**
