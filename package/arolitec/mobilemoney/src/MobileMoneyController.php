@@ -56,6 +56,7 @@ class MobileMoneyController extends Controller
                 return "cURL Error #:" . $err;
             } else {
                 $xml = XmlToArray::convert($response);
+                return $xml;
                 $responseCode = $xml['ResponseCode'];
                 $responseMessage = $xml['ResponseMessage'];
                 return self::saveTransaction($user_id,$compte,$amount,$msisdn,$type,$reference,$responseCode,$responseMessage);
