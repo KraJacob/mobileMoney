@@ -1,0 +1,50 @@
+[
+    {
+        "name": "mtownsend/xml-to-array",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mtownsend5512/xml-to-array.git",
+            "reference": "0f41a397c6534a27c70e4756f63e2481a00b5f58"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mtownsend5512/xml-to-array/zipball/0f41a397c6534a27c70e4756f63e2481a00b5f58",
+            "reference": "0f41a397c6534a27c70e4756f63e2481a00b5f58",
+            "shasum": ""
+        },
+        "require": {
+            "php": "~7.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^6.4"
+        },
+        "time": "2018-10-17T14:31:37+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mtownsend\\XmlToArray\\": "src"
+            },
+            "files": [
+                "src/helpers.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "Mark Townsend",
+                "email": "mtownsend5512@gmail.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "Easily convert valid xml to a php array.",
+        "keywords": [
+            "array",
+            "convert",
+            "laravel",
+            "xml"
+        ]
+    }
+]

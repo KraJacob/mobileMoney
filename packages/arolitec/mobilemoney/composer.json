@@ -1,0 +1,27 @@
+{
+    "name": "arolitec/mobilemoney",
+    "description": "package permettant d'integrer facolement les payements mobiles dans une application, ce package prendra en compte mtn mobile money,orange money et moov money",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arolitec",
+            "email": "jacob.kra@arolitec.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "mtownsend/xml-to-array": "^1.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Arolitec\\Mobilemoney\\MobileMoneyServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Arolitec\\Mobilemoney\\":"packages/Arolitec/Mobilemoney/src/"
+        }
+    }
+}
